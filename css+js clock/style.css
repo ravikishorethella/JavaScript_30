@@ -15,6 +15,8 @@ body{
     min-height: 100vh;
 }
 
+
+
 /* creating a clock */
 
 .clock{
@@ -71,7 +73,22 @@ body{
   transition-timing-function:cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
-.second-hand{
-    background: red;
+.sec-hand{
+    background: red !important;
     height: 3px;
 }
+
+.hour-hand{
+    width:35%;
+    left:15%;
+  }
+
+.pin{
+    position:absolute;
+    top:47%;
+    left:47%;
+    width:1em;
+    height:1em;
+    background:black;
+    border-radius:50%;
+  }
